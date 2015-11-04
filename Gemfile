@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 # Use postgresql as the database for Active Record
@@ -47,6 +46,7 @@ gem 'bcrypt', '~> 3.1.7'
 group :test, :development do
   gem 'rspec-rails'
   gem 'database_cleaner'
+  # gem 'mailcatcher'
 end
 
 group :test do
@@ -60,11 +60,5 @@ gem 'sass-rails', '~> 5.0.0'
 
 gem 'jquery-turbolinks', '~> 0.2.1'
 gem 'will_paginate-foundation'
-gem 'mailcatcher'
 gem 'rails_12factor', group: :production
-# gem 'sweet-alert'
-# gem 'whenever', require: false
-# gem 'websocket-rails'
-# gem 'thin'
-# gem 'sinatra'
-# gem 'em-websocket'
+

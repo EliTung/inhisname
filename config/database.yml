@@ -27,8 +27,8 @@ development:
   <<: *default
   adapter: postgresql
   database: prayers_development
-  # username: postgres
-  password: 
+  username: postgres
+  password: Romans8
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -64,8 +64,8 @@ test:
   <<: *default
   adapter: postgresql
   database: prayers_test
-  # username: postgres
-  password: 
+  username: postgres
+  password: Romans8
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -91,5 +91,5 @@ production:
   adapter: postgresql
   encoding: unicode
   database: prayers_production
-  # username: postgres
-  password: 
+  username: postgres
+  password: Romans8
