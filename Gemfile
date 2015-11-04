@@ -60,7 +60,7 @@ gem 'sass-rails', '~> 5.0.0'
 
 gem 'jquery-turbolinks', '~> 0.2.1'
 gem 'will_paginate-foundation'
-gem 'mailcatcher'
+# gem 'mailcatcher'
 gem 'rails_12factor', group: :production
 # gem 'sweet-alert'
 # gem 'whenever', require: false
