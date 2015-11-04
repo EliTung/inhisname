@@ -46,7 +46,7 @@ gem 'bcrypt', '~> 3.1.7'
 group :test, :development do
   gem 'rspec-rails'
   gem 'database_cleaner'
-  # gem 'mailcatcher'
+  gem 'mailcatcher'
 end
 
 group :test do
@@ -60,5 +60,6 @@ gem 'sass-rails', '~> 5.0.0'
 
 gem 'jquery-turbolinks', '~> 0.2.1'
 gem 'will_paginate-foundation'
+
 gem 'rails_12factor', group: :production
 
